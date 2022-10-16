@@ -1,4 +1,5 @@
-//22-09-17 tjudge Lab3a
+//tjudge Lab3a
+//This was another review assignment on working with Arrays
 import java.util.*;
 
 public class ElectricCarList {
