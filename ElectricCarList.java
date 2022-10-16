@@ -73,10 +73,6 @@ public class ElectricCarList {
                     '}';
         }
 
- //       public int compareTo(ElectricCar o) {
- //           return 0;
-//        }
-
     }
 
     public void addCars() {
@@ -93,24 +89,6 @@ public class ElectricCarList {
         }
 
     }
-/*
-Do comparator if time permits
-    public static Comparator<ElectricCar> rangeComparator = new Comparator<ElectricCar>() {
-
-        @Override
-        public int compare(ElectricCar e1, ElectricCar e2) {
-            return 0;
-        }
-
-        public int compare(ElectricCar e1, ElectricCarList e2) {
-            return (int) (e1.getMaxRange() - e2.getMaxRange());
-        }
-    };
-
-    private int getMaxRange() {
-        return 0;
-    }
-*/
 
     public static void main(String[] args){
         ElectricCarList carTest = new ElectricCarList();
